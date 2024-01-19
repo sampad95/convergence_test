@@ -18,7 +18,7 @@ iam=`whoami`
 echo Running on host `hostname`
 echo Started at `date`
 echo Starting Directory is `pwd`
-for i in {06..12}
+for i in `seq -w 5 0.5 20`
         do
                 cd $i
 #               ln -sf ../INCAR

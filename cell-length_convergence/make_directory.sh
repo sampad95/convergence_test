@@ -1,4 +1,4 @@
-for i in {06..12}
+for i in `seq -w 5 0.5 20`
         do      
 		mkdir $i
 		cp INCAR POTCAR KPOINTS $i
