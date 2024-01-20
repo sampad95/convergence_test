@@ -18,11 +18,9 @@ Direct
  0.5  0.5  0.5               
 !
                 
-               # mpirun -np 12 vasp_std > vasp.out
+
                 cd ..
         done
-
-#echo Finished at `date`
 
 exit
 
