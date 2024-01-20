@@ -9,9 +9,9 @@ for i in `seq -w 5 0.5 20`
                 cat >POSCAR <<!
 Y
  1
- $i  0.0 0.0
- 0.0  $i 0.0
- 0.0 0.0 $i
+ $i  0.0  0.0
+ 0.0  $i  0.0
+ 0.0  0.0  $i
  Y
  1
 Direct
